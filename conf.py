@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'WP fail2ban Addon - Gravity Forms'
+project = u'WP fail2ban Add-on - Gravity Forms'
 copyright = u'2019, Charles Lecklider'
 author = u'Charles Lecklider'
 
@@ -136,7 +136,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WPfail2banAddon-GravityForms.tex', u'WP fail2ban Addon - Gravity Forms Documentation',
+    (master_doc, 'WPfail2banAddon-GravityForms.tex', u'WP fail2ban Add-on - Gravity Forms',
      u'Charles Lecklider', 'manual'),
 ]
 
@@ -146,7 +146,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wpfail2banaddon-gravityforms', u'WP fail2ban Addon - Gravity Forms Documentation',
+    (master_doc, 'wpfail2banaddon-gravityforms', u'WP fail2ban Add-on - Gravity Forms',
      [author], 1)
 ]
 
@@ -157,7 +157,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WPfail2banAddon-GravityForms', u'WP fail2ban Addon - Gravity Forms Documentation',
+    (master_doc, 'WPfail2banAddon-GravityForms', u'WP fail2ban Add-on - Gravity Forms',
      author, 'WPfail2banAddon-GravityForms', 'One line description of project.',
      'Miscellaneous'),
 ]
@@ -165,7 +165,7 @@ texinfo_documents = [
 
 
 
-intersphinx_mapping = {'wpf2b': ('https://docs.wp-fail2ban.com/en/latest', None)}
+intersphinx_mapping = {'wpf2b': ('https://docs.wp-fail2ban.com/en/latest', '../../wp-fail2ban-premium/docs/_build/html/objects.inv')}
 
 lexers['php'] = PhpLexer(startinline=True)
 lexers['php-annotations'] = PhpLexer(startinline=True)
